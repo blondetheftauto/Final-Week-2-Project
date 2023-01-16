@@ -53,6 +53,7 @@ h2 {
     font-size: 48px;
     font-weight: bold;
     margin-top: 16px;
+    color:#243e63;
 }
 h6 {
   font-size: 20px;
@@ -246,6 +247,7 @@ FEATURES
     font-size: 18px;
     line-height: 1;
     margin-top: 8px;
+    color:#243e63;
 }
 .features__subtitle {
     width: 100%;
@@ -366,6 +368,7 @@ STEPS
 }
 .steps__title {
   margin: 0;
+  color:#243e63;
 }
 .steps__list {
   display: flex;
@@ -463,6 +466,7 @@ VALUES
   font-weight: 700;
   font-size: 20px;
   margin-left: 12px;
+  color:#243e63;
 }
 .value__text {
   text-align: left;
@@ -591,3 +595,91 @@ TESTIMONIALS
 
 */
 
+.testimonials__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonials__img--wrapper,
+.testimonials__text--wrapper {
+  width: 50%;
+}
+.testimonials__text--wrapper {
+  max-width: 576px;
+}
+.testimonials__testimonial {
+  margin-top: 40px;
+  width: 100%;
+  display: block;
+}
+.slick__list {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  transform: translatez(0);
+}
+.slick__track {
+  width: 2880px;
+  opacity: 1;
+  transform: translate3d(-1152px, 0px, 0px);
+  display: flex;
+}
+.slick__slide {
+  width: 576px;
+  display: flex;
+  justify-content: center;
+}
+.testimonial {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.testimonial__title {
+font-size: 20px;
+font-weight: 700;
+margin-top: 16px;
+color:#243e63;
+}
+.testimonial__description {
+  margin: 16px 0 40px 0;
+  font-weight: 500;
+  line-height: 1.625;
+  color: rgb(74, 85, 104);
+}
+.testimonial__customer-control--wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonial__customer--wrapper {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+}
+.customer__img {
+  height: 80px;
+  width: 80px;
+  border-radius: 9999px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.customer__text {
+  margin: 0 24px;
+  text-align: left;
+}
+.customer__name {
+  margin: 0;
+  font-size: 20px;
+  color:#243e63;
+}
+.customer__jobtitle {
+  margin: 0;
+  font-size: 16px;
+}
+.testimonial__controls--wrapper {
+  display: flex;
+}
