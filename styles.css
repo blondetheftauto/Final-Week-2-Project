@@ -478,3 +478,116 @@ PRICE
 
 */
 
+.pricing__text--wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.pricing__title {
+  margin-bottom: 0px;
+}
+.pricing__description {
+  text-align: center;
+  max-width: 576px;
+}
+.pricing__prices--wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.pricing__price {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 320px;
+  margin-right: 32px;
+  margin-top: 64px;
+  padding: 8px 32px 0 32px;
+  position: relative;
+  text-align: center;
+}
+.pricing__price--color {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 8px;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+.pricing__price--color1 {
+  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+.pricing__price--color3 {
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+.pricing__price--header {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.625;
+  padding: 32px 0;
+}
+.price__name {
+  font-weight: 700;
+  font-size: 20px;
+}
+.price__price {
+  font-weight: 700;
+  font-size: 48px;
+  margin: 4px 0;
+}
+.price__duration {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(160, 174, 192);
+}
+
+.pricing__price--features {
+  padding: 32px;
+  margin: 0 -32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid rgb(226, 232, 240);
+  border-left-width: 0;
+  border-right-width: 0;
+}
+.price__feature--title {
+  font-weight: 700;
+  font-size: 20px;
+}
+.price__feature {
+  margin-top: 20px;
+  font-size: 16px;
+  color: rgb(113, 128, 150);
+  font-weight: 500;
+}
+.pricing__btn--wrapper {
+  padding: 32px 32px 16px 32px;
+}
+.pricing__btn {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 16px 32px;
+  border: none;
+}
+.pricing__price--middle {
+  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+  border-radius: 10px;
+  color: white;
+}
+.price__middle--color {
+  color: white;
+}
+.pricing__price--middle--color {
+ border-color: rgb(102, 126, 234)
+}
+
+/*
+
+TESTIMONIALS
+
+*/
+
